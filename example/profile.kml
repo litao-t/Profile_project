@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>1.kml</name>
+	<Style id="st-48627-0">
+		<IconStyle>
+			<color>ff80c0ff</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>bfffffff</color>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff80c0ff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="st-48627-00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#st-48627-01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#st-48627-02</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="st-48627-01">
+		<IconStyle>
+			<color>ff80c0ff</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>bfffffff</color>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff80c0ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="st-48627-02">
+		<IconStyle>
+			<color>ff80c0ff</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>bfffffff</color>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff80c0ff</color>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>1.gmt</name>
+		<open>1</open>
+		<Placemark>
+			<name>pro1</name>
+			<styleUrl>#st-48627-0</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-116.479328664,34.636508129,0 -116.426148533,34.6620415361,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>pro2</name>
+			<styleUrl>#st-48627-00</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-116.4680474043328,34.61999391702067,0 -116.4190241799325,34.64670883909405,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>pro3</name>
+			<styleUrl>#st-48627-0</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-116.387508829,34.6264731886,0 -116.438905271,34.5945736614,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>pro4</name>
+			<styleUrl>#st-48627-0</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-116.543453619,34.6327554641,0 -116.472851278,34.6636909483,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>pro5</name>
+			<styleUrl>#st-48627-0</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-116.461184169,34.6449447701,0 -116.534244635,34.6118863297,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>pro6</name>
+			<styleUrl>#st-48627-0</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-116.504677275,34.5794030735,0 -116.436316288,34.6189888204,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>pro7</name>
+			<styleUrl>#st-48627-0</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-116.421777884,34.6002784527,0 -116.47003528,34.56094543,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
