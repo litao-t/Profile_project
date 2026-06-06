@@ -8,6 +8,7 @@ if [ ! -f $file ]; then
     gmt kml2gmt $1 > $file
 fi
 grdfile=`echo $2 | awk -F. '{print $1}'`
+grdfilename=`echo $grdfile | awk -F '/' '{print $NF}'`
 dist=$3
 
 while IFS= read -r line; do
@@ -34,7 +35,7 @@ while IFS= read -r line; do
 
             # extract the displacement 
             awk '{print $1,$2}' $path_name".tmp" | gmt grdtrack -G$grdfile".grd" -Z > temp2
-            paste temp1 temp2 > $path_name'_'$grdfile.xyz
+            paste temp1 temp2 > $path_name'_'$grdfilename.xyz
 
         fi
     fi
